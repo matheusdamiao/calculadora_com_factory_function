@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: left;
+  font-size: 3em;
+  padding: 15px;
+}
+
+.calculadora {
+  max-width: 400px;
+}
+
+.display {
+  width: 100%;
+  font-size: 2em;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1.3em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+}
+
+.btn-eq:hover {
+  background: blue;
+}
+
+.btn-clear:hover {
+  background: red;
+}
